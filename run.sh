@@ -1,1 +1,5 @@
-docker run -p 8080:8080 --rm --name zeppelin apache/zeppelin:0.10.0
+wget https://downloads.apache.org/zeppelin/zeppelin-0.10.0/zeppelin-0.10.0-bin-all.tgz
+tar xvf zeppelin-0.10.0-bin-all.tgz
+apt install default-jre
+cd zeppelin-0.10.0-bin-all
+./bin/zeppelin.sh start
