@@ -1,4 +1,4 @@
 curl -fsSL https://code-server.dev/install.sh | sh
-export PASSWORD=12345
-code-server --host-addr 0.0.0.0 --port 8080 --password 
+export PASSWORD=123456
+code-server --host-addr 0.0.0.0 --port 443 --password $PASSWORD
 
