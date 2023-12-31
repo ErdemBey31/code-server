@@ -8,4 +8,7 @@ RUN apt update -y
 
 RUN apt install wget -y
 
+RUN apt install curl -y
+
+
 ENTRYPOINT ["bash", "run.sh"]
